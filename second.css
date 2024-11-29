@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    border: solid;
+    font-weight: normal;
+    text-decoration:wavy orange underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    text-align: left;
+    border: solid;
+    font: weight 400px;
+    text-decoration:double rgb(226, 11, 47) overline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    text-align: right;
+    border: solid;
+    text-decoration:dashed magenta line-through;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h4{
+    text-align: justify;
+    border: solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+}

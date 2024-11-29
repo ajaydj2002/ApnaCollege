@@ -1,0 +1,45 @@
+.container{
+    height: 100px;
+    width: 900px;
+    background-color: pink;
+    color: red;
+    border: 2px darkblue dashed;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    animation-name: Animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+    animation-name: color;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes Animation{
+    from{
+        font-size: 50px;
+    }
+    to{
+        font-size: 80px;
+    }
+}
+
+@keyframes color{
+    from{
+        color: red;
+    }
+    to{
+        color: orange;
+    }
+}
+
+    

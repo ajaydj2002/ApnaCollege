@@ -1,0 +1,16 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border: 15px solid black;
+    border-top: 15px solid gold;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    animation: spin 2s linear infinite;
+  
+}
+
+  @keyframes spin {
+    to{transform: rotate(1turn)}
+  }
+  
+  
